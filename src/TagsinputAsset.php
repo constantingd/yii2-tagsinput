@@ -14,8 +14,6 @@ namespace wbraganca\tagsinput;
  */
 class TagsinputAsset extends \yii\web\AssetBundle
 {
-    public $sourcePath = '@bower/bootstrap-tagsinput/dist';
-
     public $css = [
         'bootstrap-tagsinput.css',
     ];
@@ -28,4 +26,9 @@ class TagsinputAsset extends \yii\web\AssetBundle
         'yii\web\JqueryAsset',
         'yii\bootstrap\BootstrapAsset'
     ];
+    
+    public function init(){
+        $this->sourcePath = dirname(dirname(dirname(__FILE__))) . DIRECTORY_SEPARATOR . 'bootstrap-tagsinput'.DIRECTORY_SEPARATOR .'dist';
+        
+    }
 }
