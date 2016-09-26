@@ -3,13 +3,13 @@
 Via Composer
 
 ```bash
-$ composer require wbraganca/yii2-tagsinput
+$ composer require life2016/yii2-tagsinput
 ```
 
 or add
 
 ```
-"wbraganca/yii2-tagsinput": "*"
+"life2016/yii2-tagsinput": "*"
 ```
 
 to the require section of your `composer.json` file.
