@@ -1,23 +1,23 @@
-## Install
+## Установка
 
 Via Composer
 
 ```bash
-$ composer require life2016/yii2-tagsinput
+$ composer require constantingd/yii2-tagsinput
 ```
 
-or add
+или 
 
 ```
-"life2016/yii2-tagsinput": "*"
+"constantingd/yii2-tagsinput": "*"
 ```
 
-to the require section of your `composer.json` file.
+в соотвествующую секцию `composer.json`.
 
 
-## Usage
+## Использование
 
-On your view file.
+В файле view.
 
 ```php
 
@@ -34,4 +34,4 @@ use wbraganca\tagsinput\TagsinputWidget;
 
 ```
 
-For more options, visit: http://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/
+Еще про данный JS плагин: http://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/
