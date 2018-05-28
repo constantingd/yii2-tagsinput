@@ -1,5 +1,5 @@
 {
-    "name": "life2016/yii2-tagsinput",
+    "name": "constantingd/yii2-tagsinput",
     "description": "",
     "type": "yii2-extension",
     "keywords": [
@@ -8,12 +8,12 @@
         "yii2-tagsinput",
         "yii2 tags input"
     ],
-    "homepage": "https://github.com/ran1990/yii2-tagsinput.git",
+    "homepage": "https://github.com/constantingd/yii2-tagsinput.git",
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "ran",
-            "email": "r503948796@163.com"
+            "name": "Constantin",
+            "email": "grdog@yandex.ru"
         }
     ],
     "require": {
